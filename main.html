@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de cadastro</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+        <header>
+            <h1>Lista de cadastro</h1>
+        </header>
+        <div class="container">
+        <form id="form-cont">
+            <input type="text" id="nome" placeholder="nome">
+            <input type="tel" id="telefone" placeholder="numero">
+            <button type="submit">ADICIONAR</button>                            
+        </form>
+    </div>
+    <div class="tableClass">
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Telefone</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Numeros cadastrados</td>
+                    <td class="Numeros" id="totalNumeros"></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <footer>
+        <div class="rodape">
+            <p>
+                &copy; Edens Telefonia - Todos os direitos reservados - 2024
+            </p>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
